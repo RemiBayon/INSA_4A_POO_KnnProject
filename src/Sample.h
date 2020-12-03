@@ -5,9 +5,17 @@
 
 class Sample
 {
-public:
-
-private:
+  private:
+      _data
+      _nb_features
+      _nb_samples
+  public:
+    features
+    operator[]
+    Sample
+    scale
+    tag
+    std::string toString();
 };
 
 
