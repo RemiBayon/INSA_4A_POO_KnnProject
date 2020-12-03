@@ -5,10 +5,6 @@
 
 class Sample
 {
-  private:
-      _data
-      _nb_features
-      _nb_samples
   public:
     features
     operator[]
@@ -16,6 +12,10 @@ class Sample
     scale
     tag
     std::string toString();
+  private:
+    _data
+    _nb_features
+    _nb_samples
 };
 
 
