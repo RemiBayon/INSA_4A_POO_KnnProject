@@ -2,18 +2,13 @@
 #define DEF_KNN
 
 
-
-Class Knn
+class Knn
 {
 public:
 
 protected:
 
-}
-
-
-
-
+};
 
 
 #endif // DEF_KNN

@@ -4,16 +4,12 @@
 #define DEF_CLASSIFICATIONREPORT
 
 
-Class ClassificationReport
+class ClassificationReport
 {
 public:
 
 private:
-}
-
-
-
-
+};
 
 
 #endif

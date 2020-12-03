@@ -3,16 +3,12 @@
 #define DEF_SAMPLE
 
 
-Class Sample
+class Sample
 {
 public:
 
 private:
-}
-
-
-
-
+};
 
 
 #endif

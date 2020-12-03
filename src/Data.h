@@ -2,16 +2,11 @@
 #define DEF_DATA
 
 
-Class Data
+class Data
 {
 public:
 
 private:
-}
-
-
-
-
-
+};
 
 #endif
