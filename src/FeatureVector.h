@@ -17,6 +17,7 @@ class FeatureVector
         double operator*(const FeatureVector& vect1);  // produit scalaire
         //friend double operator*(const FeatureVector& vect1, const FeatureVector& vect2);  // produit scalaire
         // L’opérateur * a été déclaré « friend » afin de lui permettre d’accéder aux données « private » de la classe « FeatureVector ».
+        // -> nop bad strat ça marche pas
 
         void affiche();
 

@@ -15,7 +15,7 @@ FeatureVector::FeatureVector(double* tab_coordinates, int nb_coordinates)
 
 double FeatureVector::operator*(const FeatureVector& vect1)
 {
-    double res = 0;
+    double res = 0.0;
     int n = _vector.size();
 
     for(int i=0;i<n;i++)
@@ -29,6 +29,7 @@ double FeatureVector::operator*(const FeatureVector& vect1)
 
 double FeatureVector::norme()
 {
+    // la norme d'un vecteur est égale à la racine carrée du produit scalaire de ce vecteur avec lui-même
     double value = this->operator*this;
     return sqrt(value);
 }
