@@ -27,9 +27,18 @@ double FeatureVector::operator*(const FeatureVector& vect1)
     return res;
 }
 
+double FeatureVector::operator[](const FeatureVector& vect1)
+{
+    int n = _vector.size();
+    double res;
+    res = _vector[0]*vect1._vector[1]-_vector[1]*vect1._vector[0];
+}
+
+
 double FeatureVector::norme()
 {
-    // la norme d'un vecteur est égale à la racine carrée du produit scalaire de ce vecteur avec lui-même
+    // la norme d'un vecteur est Ã©gale Ã  la racine carrÃ©e du produit scalaire de ce vecteur avec lui-mÃªme
     double value = this->operator*this;
     return sqrt(value);
 }
+
